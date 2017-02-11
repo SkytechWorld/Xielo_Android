@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nguessan.script.MainActivity"
+    android:background="#d0cece">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Script"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="#030303"
+        android:textStyle="bold"
+        android:textSize="50sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/username"
+        android:ems="10"
+        android:id="@+id/editTextu"
+        android:labelFor="@id/editTextu"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="@string/Password"
+        android:ems="10"
+        android:id="@+id/editTextp"
+        android:labelFor="@id/editTextp"
+        android:layout_below="@+id/editTextu"
+        android:layout_alignStart="@+id/editTextu" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:background="@android:color/transparent"
+        android:text="@string/Login"
+        android:id="@+id/btnlogin"
+        android:layout_below="@+id/editTextp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/ForgotPassword"
+        android:id="@+id/button2"
+        android:textSize="14sp"
+        android:layout_below="@+id/btnlogin"
+        android:layout_centerHorizontal="true"
+        android:onClick="onForgotClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/SignUp"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+        android:textSize="14sp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onButtonClick" />
+
+    <com.facebook.login.widget.LoginButton
+        android:text="@string/facebook_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nguessan.script.homepage"
+    android:background="#d0cece">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Script"
+        android:id="@+id/textViewhomepage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="#030303"
+        android:textStyle="bold"
+        android:textSize="50sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/username"
+        android:labelFor="@+id/editTextUS"
+        android:ems="10"
+        android:id="@+id/editTextUS"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="@string/Email"
+        android:labelFor="@+id/editTextET"
+        android:ems="10"
+        android:id="@+id/editTextET"
+        android:layout_below="@+id/editTextUS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonsubmit"
+        android:text="@string/submit"
+        android:layout_below="@id/editTextET"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:onClick="onForgotpasswordClick" />
+
+</RelativeLayout>

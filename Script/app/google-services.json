@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "40412591613",
+    "firebase_url": "https://xielo1-a9ba5.firebaseio.com",
+    "project_id": "xielo1-a9ba5",
+    "storage_bucket": "xielo1-a9ba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40412591613:android:6d0ded474f98e9fa",
+        "android_client_info": {
+          "package_name": "com.nguessan.script"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40412591613-j18u6krh3fqvi8ja3838g1d0sqtjp7ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {"current_key" : "AIzaSyDsf4hybb9omcLq56hJqjlb9bCXMDBCMZA "} ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

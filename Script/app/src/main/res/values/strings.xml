@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">XIELO</string>
+    <string name="Script">Xielo</string>
+    <string name="Confirm_password">Confirm Password</string>
+    <string name="username">Username</string>
+    <string name="description">description</string>
+    <string name="Register_Here">Register Here</string>
+    <string name="Login">Login</string>
+    <string name="ForgotPassword">Forgot Password</string>
+    <string name="SignUp">Register</string>
+    <string name="Register">Register</string>
+    <string name="Password">Password</string>
+    <string name="facebook_login">Login with Facebook</string>
+    <string name="Email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="cp">Confirm Password</string>
+    <string name="send">SEND</string>
+    <string name="move">Run / Bike</string>
+    <string name="workout">Workout</string>
+    <string name="search">Connect</string>
+    <string name="school_prompt">Choose your school</string>
+    <string name="interests_prompt">Choose your Interests</string>
+    <string name="inter">What are you interested in ?</string>
+    <string name="what">What school are you attending ?</string>
+    <string name="New_password">New Password</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">943933412405911</string>
+
+</resources>
