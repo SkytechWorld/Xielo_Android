@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
             public void onSuccess(LoginResult loginResult) {
                 Log.d("LOGIN_SUCCESS", "Success");
                 loginButton.setVisibility(View.INVISIBLE); //<- IMPORTANT
-                Intent intent = new Intent(MainActivity.this,School.class);
+                Intent intent = new Intent(MainActivity.this,Avatar.class);
                 startActivity(intent);
                 finish();//<- IMPORTANT
 
@@ -87,7 +87,7 @@ public class MainActivity extends Activity {
             String password = helper.searchPass(str);
 
             if (pass.equals(password)) {
-                Intent i = new Intent(MainActivity.this, School.class);
+                Intent i = new Intent(MainActivity.this, Avatar.class);
                 startActivity(i);
             } else {
                 Toast temp = Toast.makeText(MainActivity.this, "Username and Password don't match", Toast.LENGTH_SHORT);
