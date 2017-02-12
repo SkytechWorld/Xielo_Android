@@ -44,6 +44,7 @@ public class MainActivity extends Activity {
         TextView myTextView = (TextView) findViewById(R.id.textView);
         myTextView.setTypeface(myTypeface);
         callbackManager = CallbackManager.Factory.create();
+
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {

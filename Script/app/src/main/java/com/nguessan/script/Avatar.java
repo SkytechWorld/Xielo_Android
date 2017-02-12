@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 
-public class School extends AppCompatActivity {
+public class Avatar extends AppCompatActivity {
     Button buttonsearch;
 
 
@@ -30,7 +30,7 @@ public class School extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(School.this,MapsActivity.class);
+                Intent intent = new Intent(Avatar.this,MapsActivity.class);
                 startActivity(intent);
             }
         });

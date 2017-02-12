@@ -31,7 +31,7 @@ public class signup extends Activity {
             EditText pass1 = (EditText)findViewById(R.id.editTextPassword);
             EditText pass2 = (EditText)findViewById(R.id.editTextcp);
 
-            String usernamestr =username.getText().toString();
+            String usernamestr = username.getText().toString();
             String emailstr = email.getText().toString();
             String pass1str = pass1.getText().toString();
             String pass2str = pass2.getText().toString();
