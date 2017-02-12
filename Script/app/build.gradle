@@ -35,5 +35,3 @@ dependencies {
     compile 'com.facebook.android:facebook-android-sdk:4.14.0'
 }
 apply plugin: 'com.google.gms.google-services'
-
-org.gradle.jvmargs=-Xmx2048m
